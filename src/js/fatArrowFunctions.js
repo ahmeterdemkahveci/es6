@@ -24,7 +24,7 @@ const cars = {
             console.log(`${brand} is ${elm.category}`)
         })
     }*/
-    message: function(){
+    message(){
         return this.brands.map((brand)=>{
             console.log(`${brand} is ${this.category}`)
         })

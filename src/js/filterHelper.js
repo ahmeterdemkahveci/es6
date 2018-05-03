@@ -34,8 +34,6 @@ const channels = [
     {name:'NETFLIX', premium:true}
 ]
 
-const premiumChannels = channels.filter(function(channel){
-    return channel.premium
-})
+const premiumChannels = channels.filter(channel => channel.premium)
 
 console.log(premiumChannels)
